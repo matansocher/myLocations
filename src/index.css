@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+}
+
+.category-menu {
+  position: relative;
+  float: right;
+  top: -45px;
+  right: -20px;
+}
+
+.location-menu {
+  position: relative;
+  float: right;
+  top: -165px;
+  right: -20px;
+}
+
+.floatting-action-button {
+  position: fixed;
+	bottom: 30px;
+	right: 30px;
+  z-index: 10;
+}
+
+.google-map {
+  height: 100%;
+}
+
+.category {
+  position: relative;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.location:hover {
+  cursor: pointer;
+}
+
+.circle {
+  font-size: 20px;
+}
+
+.bottom-navigation-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 57px;
+}
+
+.back-button {
+  float: left;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.save-button {
+  float: right;
+}
