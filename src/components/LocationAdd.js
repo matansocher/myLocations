@@ -20,8 +20,8 @@ class LocationAdd extends Component {
       address: '',
       categories: [],
       categoryPicker: '',
-      lng: 0,
-      lat: 0,
+      lng: 34.7902292,
+      lat: 32.086795,
       errorMessage: '',
       editing: false
     }
@@ -155,6 +155,14 @@ class LocationAdd extends Component {
               openOnFocus={true}
             />
             <br /><br /><br />
+            <TextField floatingLabelText="Longtitude" name="lng"
+              value={this.state.lng} onChange={this.handleChange}
+            /> 
+            <br />
+            <TextField floatingLabelText="Latitude" name="lat"
+              value={this.state.lat} onChange={this.handleChange}
+            /> 
+            <br />
             <GoogleMap lat={32.086795} lng={34.7902292} />
             <br />
           </div>
