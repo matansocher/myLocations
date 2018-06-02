@@ -64,7 +64,6 @@ export function actionEditCategory(oldName, newName) {
     }
     return location;
   })
-  console.log(locations)
   localStorage.setItem("locations", JSON.stringify(newLocations));
   return {
     type: EDIT_CATEGORY,
@@ -107,7 +106,6 @@ export function actionAddOrEditLocation(location) {
     locations.splice(i, 1);
   }
   locations.push(location);
-  console.log(location)
   localStorage.setItem("locations", JSON.stringify(locations));
   return {
     type: ADD_OR_EDIT_LOCATION,

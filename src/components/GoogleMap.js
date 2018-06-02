@@ -32,7 +32,6 @@ class MapContainer extends Component {
   // this.setState({ lat: , lng:  })
 
   render() {
-    console.log('aaaaaaaaaaaaa')
     const style = {
       width: '80%',
       height: '300px'

@@ -95,9 +95,7 @@ export class Locations extends Component {
       )
     }
     const category = this.state.filterBy;
-    // console.log(locations, category)
     locations = filterByCategory(locations, category);
-    // console.log(locations)
     locations = sortAlphabetic(locations);
     return (
       locations.map((location) => {
